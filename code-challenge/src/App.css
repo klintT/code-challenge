@@ -1,0 +1,30 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-table {
+  font-weight: bold;
+  border-collapse: collapse;
+  border: 1px solid;
+  border-color: lightgray;
+  width: 1000px;
+}
+
+.post-header {
+  line-height: 100px;
+  border-bottom: 2px solid black;
+}
+
+.post-row {
+  height: 100px;
+
+  &.dark-background {
+    background-color: rgb(231, 226, 226);
+  }
+}
+
+td, th {
+  padding: 20px;
+}
